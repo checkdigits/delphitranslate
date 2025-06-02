@@ -1,0 +1,5 @@
+	<div class="textcontainer" id="textboxes">
+	    <textarea id="translatedcontent" name="transcontent" placeholder="Translation">@transvalue</textarea>
+			&nbsp;
+			<textarea id="originalcontent" name="ogcontent" maxlength="5000" hx-post="/translatetext" hx-trigger="delay:500ms changed" hx-target="#translatedcontent" hx-swap="innerHTML">@ogvalue</textarea>
+	</div>
