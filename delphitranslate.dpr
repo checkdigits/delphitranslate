@@ -9,10 +9,13 @@ uses
   IdHTTPWebBrokerBridge,
   Web.WebReq,
   Web.WebBroker,
+  {$IFDEF MSWINDOWS}
+  Winapi.Windows,
+  {$ENDIF }
   modules.mainserver in 'modules.mainserver.pas' {WebModule1: TWebModule},
   modules.consts in 'modules.consts.pas',
   modules.envclass in 'modules.envclass.pas',
-  modules.translationcontroller in 'modules.translationcontroller.pas';
+  modules.translator in 'modules.translator.pas';
 
 {$R *.res}
 
@@ -76,12 +79,12 @@ end;
 procedure StopServer(const AServer: TIdHTTPWebBrokerBridge);
 begin
   if AServer.Active then
-  begin
-    Writeln(sStoppingServer);
-    AServer.Active := False;
-    AServer.Bindings.Clear;
-    Writeln(sServerStopped);
-  end
+    begin
+      Writeln(sStoppingServer);
+      AServer.Active := False;
+      AServer.Bindings.Clear;
+      Writeln(sServerStopped);
+    end
   else
     Writeln(sServerNotRunning);
   Write(cArrow);
@@ -107,15 +110,20 @@ var
   LServer: TIdHTTPWebBrokerBridge;
   LResponse: string;
 begin
-  WriteCommands;
   LServer := TIdHTTPWebBrokerBridge.Create(nil);
   try
+    Writeln(sWelcomeText);
     LServer.DefaultPort := APort;
+    Writeln(Format(sServerReady, [APort]) + #10);
+    StartServer(LServer);
+    WriteCommands;
     while True do
     begin
       Readln(LResponse);
       LResponse := LowerCase(LResponse);
-      if LResponse.StartsWith(cCommandSetPort) then
+      if LResponse.IsEmpty then
+        Write(cArrow)
+      else if LResponse.StartsWith(cCommandSetPort) then
         SetPort(LServer, LResponse)
       else if sametext(LResponse, cCommandStart) then
         StartServer(LServer)
@@ -145,10 +153,13 @@ begin
 end;
 
 begin
+  {$IFDEF MSWINDOWS}
+  SetConsoleOutputCP(CP_UTF8);
+  {$ENDIF}
   try
-  if WebRequestHandler <> nil then
-    WebRequestHandler.WebModuleClass := WebModuleClass;
-    RunServer(8080);
+    if WebRequestHandler <> nil then
+      WebRequestHandler.WebModuleClass := WebModuleClass;
+      RunServer(8080);
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);

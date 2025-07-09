@@ -165,7 +165,9 @@
         </DCCReference>
         <DCCReference Include="modules.consts.pas"/>
         <DCCReference Include="modules.envclass.pas"/>
-        <DCCReference Include="modules.translationcontroller.pas"/>
+        <DCCReference Include="modules.translator.pas"/>
+        <None Include="html\mainpage.html"/>
+        <None Include="html\static\css\custom.css"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -224,6 +226,18 @@
                 <DeployFile LocalName="Win64\Debug\delphitranslate.rsm" Configuration="Debug" Class="DebugSymbols">
                     <Platform Name="Win64">
                         <RemoteName>delphitranslate.rsm</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="html\mainpage.html" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win64">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="html\static\css\custom.css" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win64">
+                        <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>

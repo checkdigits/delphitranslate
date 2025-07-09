@@ -33,7 +33,7 @@ constructor TEnvironmentSettings.Create;
 begin
   inherited Create;
   // Initialize properties
-  FAppVersion := '2025.5.28.1';
+  FAppVersion := '2025.6.16.1';
   FAppName := 'Delphi Translate';
   FCompanyName := 'Embarcadero Technologies Inc.';
   // This RESOURCE env is required to make the WebStencils templates reusable for RAD Server

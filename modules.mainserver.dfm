@@ -21,6 +21,12 @@ object WebModule1: TWebModule1
       Name = 'MenuAction'
       PathInfo = '/menu'
       ProducerContent = WebStencilsProcessor1
+    end
+    item
+      Name = 'SetNewLangAction'
+      PathInfo = '/setnewlang'
+      ProducerContent = WebStencilsProcessor1
+      OnAction = WebModule1SetNewLangActionAction
     end>
   Height = 230
   Width = 415
@@ -29,10 +35,12 @@ object WebModule1: TWebModule1
     PathTemplates = <
       item
         Template = '/'
-        Redirect = 'mainpage.html'
+        Redirect = 'delphitranslate.html'
       end>
     RootDirectory = '../../html/'
     OnValue = WebStencilsEngineValue
+    OnFile = WebStencilsEngineFile
+    OnPathInit = WebStencilsEnginePathInit
     Left = 80
     Top = 40
   end

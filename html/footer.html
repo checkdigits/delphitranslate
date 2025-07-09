@@ -1,0 +1,28 @@
+
+<!-- Bootstrap JS -->
+<script 
+	src="https://cdn.jsdelivr.net/npm/bootstrap@@5.3.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+	crossorigin="anonymous">	
+</script>
+
+<script>
+	function handlePaste() {
+		const mytextarea = document.getElementById('originalcontent');
+	
+		mytextarea.addEventListener('paste', async (event) => {
+		  try {
+		  	// Read text from clipboard
+		    const pastedText = await navigator.clipboard.readText();
+	
+		    // Process the pasted text (e.g., log it or update the textarea)
+		    document.getElementsByName('translatebutton')[0].click();
+			} catch (err) {
+		  	console.error('Failed to read clipboard: ', err);
+			}
+	   });
+	 }
+
+  // attach the event for the first time
+  handlePaste(); 
+</script>

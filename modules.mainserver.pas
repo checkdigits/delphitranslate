@@ -1,10 +1,13 @@
-unit modules.mainserver;
+﻿unit modules.mainserver;
 
 interface
 
 uses
-  System.SysUtils, System.Classes, Web.HTTPApp, Web.Stencils,
-  modules.envclass, AWS.Translate;
+  System.SysUtils, System.Classes, Web.HTTPApp, Web.Stencils
+  , modules.envclass   // used to provide some @ENV functionality in the WebStencils templates
+  , modules.translator // Does the actual work of accessing the AWS Translate service
+  , System.DateUtils
+  ;
 
 type
   TWebModule1 = class(TWebModule)
@@ -16,13 +19,20 @@ type
     procedure WebStencilsEngineValue(Sender: TObject; const AObjectName, APropName: string; var AReplaceText: string; var AHandled: Boolean);
     procedure WebModule1TranslateTextActionAction(Sender: TObject; Request: TWebRequest; Response: TWebResponse; var Handled: Boolean);
     procedure WebModule1SwapActionAction(Sender: TObject; Request: TWebRequest; Response: TWebResponse; var Handled: Boolean);
+    procedure WebModule1SetNewLangActionAction(Sender: TObject; Request: TWebRequest; Response: TWebResponse; var Handled: Boolean);
+    procedure WebStencilsEngineFile(Sender: TObject;
+      const AFilename: string; var AText: string; var AHandled: Boolean);
+    procedure WebStencilsEnginePathInit(Sender: TObject;
+      const ARequest: TWebPostProcessorRequest);
   private
     FEnvironmentSettings: TEnvironmentSettings;
-    FClient: ITranslateClient;
     FResourcesPath: string;
     FIsSwapped: boolean;
+    FTranslator: ITranslationManager;
+    FLanguages: TLanguageList;
+    FTimer: TDateTime;
     procedure Init;
-    function DoTranslate(const OriginalText: string): string;
+    function ReturnLanguageTable: string;
   end;
 
 var
@@ -38,24 +48,7 @@ uses
 
 {$R *.dfm}
 
-function TWebModule1.DoTranslate(const OriginalText: string): string;
-var
-  LRequest: ITranslateTranslateTextRequest;
-  LResponse: ITranslateTranslateTextResponse;
-begin
-  LRequest := TTranslateTranslateTextRequest.Create('auto', 'en', OriginalText);
-  LResponse := FClient.TranslateText(LRequest);
-  if LResponse.IsSuccessful then
-  begin
-//    if SourceLanguageCode.Equals('auto') then
-//      DetectedLanguageCode := LResponse.SourceLanguageCode;
-//    Result := LResponse.TranslatedText + '<br />Source: ' + LResponse.SourceLanguageCode + '<br />Target: ' + LResponse.TargetLanguageCode;
-    Result := LResponse.TranslatedText;
-  end;end;
-
 procedure TWebModule1.Init;
-var
-  LResources: string;
 begin
   // Set the path for resources based on the platform and build configuration
   var BinaryPath := TPath.GetDirectoryName(ParamStr(0));
@@ -74,14 +67,107 @@ begin
   // Start off with the plain and translated text boxes unswapped
   FIsSwapped := False;
 
-  // Initialize the AWS translation string
-  FClient := TTranslateClient.Create;
+  // Initialize the translation workhorse
+  FTranslator := TTranslationManager.Create;
+
+  FLanguages := TLanguageList.GetInstance;
+  FLanguages.SetLanguages(FTranslator.AvailableLanguages);
+  WebStencilsEngine.AddVar('Translator', FLanguages);
+end;
+
+function TWebModule1.ReturnLanguageTable: string;
+const
+  cMaxLangsPerLine = 10;
+begin
+{
+  This returns a HTML which looks like this:
+
+			<div>
+			  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+					  <a id="detected" name="detected" class="nav-link active text-primary" aria-current="page" href="#">%%% LANG GOES HERE %%%</a>
+					</li>
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						&nbsp;
+					  </a>
+					  <ul class="dropdown-menu">
+              <table class="table" name="langtable" id="langtable">
+                <tbody>
+                  <tr class="nav-auto">
+                  <td class="clickable"><label id="langauto" hx-get="/setnewlang?lang=auto" hx-params="*" hx-trigger="click">Auto</label></td>
+                  <td class="clickable"><label id="langen" hx-get="/setnewlang?lang=en" hx-params="*" hx-trigger="click">English</label></td>
+                  <td class="clickable"><label id="langfr" hx-get="/setnewlang?lang=fr" hx-params="*" hx-trigger="click">French</label></td>
+                  etc...
+                  </tr>
+                  <tr class="nav-auto">
+                  <td class="clickable"><label id="langge" hx-get="/setnewlang?lang=ge" hx-params="*" hx-trigger="click">German</label></td>
+                  <td class="clickable"><label id="langde" hx-get="/setnewlang?lang=de" hx-params="*" hx-trigger="click">Danish</label></td>
+                  etc...
+                  </tr>
+                </tbody>
+              </table>
+			      </ul>
+			     </li>
+				</div>
+
+}
+
+  Result := cLangBlockPart1 + cDetectedDiv + FTranslator.SourceLanguageName + '</div></a>' + #10;
+  Result := Result + cLangBlockPart2 + #10;
+
+  Result := Result + '<table class="table" name="langtable" id="langtable"><tbody>';
+  var LCnt: integer := 0;
+  var LLeft, LRight, LActive: string;
+  for var LCode in FLanguages.Languages do
+  begin
+    if LCnt = 0 then
+      Result := Result + '<tr class="nav-item">';
+    // For the active language we put a HTML entity check mark against it...
+    if LCode.LanguageCode.Equals(FTranslator.SourceLanguageCode) then
+      LActive := '&nbsp;&check;'
+    else
+      LActive := '';
+    Result := Result + '<td class="clickable"><label id="lang'
+                     + LCode.LanguageCode
+                     + '" hx-get="/setnewlang?lang='
+                     + LCode.LanguageCode
+                     + '" hx-params="*" hx-trigger="click" hx-target="#langblock" hx-swap="outerHTML" >'
+                     + LCode.LanguageName
+                     + LActive
+                     + '</label></td>'
+                     + #10;
+    Inc(LCnt);
+    if LCnt = cMaxLangsPerLine then
+    begin
+      Result := Result + '</tr>';
+      LCnt := 0;
+    end;
+  end;
+  if LCnt > 0 then Result := Result + '</tr>' + #10;  // finish uneven row
+  Result := Result + '</tbody></table>' + #10;
+  Result := Result + '</ul></li></div>' + #10;
+end;
+
+procedure TWebModule1.WebModule1SetNewLangActionAction(Sender: TObject; Request: TWebRequest; Response: TWebResponse; var Handled: Boolean);
+begin
+  // This method gets called when the user clicks on one of the available languages in the language dropdown
+  // It sets the new source language and triggers the translate action so that any text in the "original text" box
+  // is translated to the newly selected destination language
+  // setnewlang
+  Handled := True;
+  var LLang: string := Request.ContentFields.Values['lang'];
+  if LLang.IsEmpty then  // if no language code parameter then set it to whatever it was before
+    LLang := FTranslator.SourceLanguageCode;
+  FTranslator.SourceLanguageCode := LLang;
+  Response.Content := ReturnLanguageTable;
+  Handled := True;
 end;
 
 procedure TWebModule1.WebModule1SwapActionAction(Sender: TObject; Request: TWebRequest; Response: TWebResponse; var Handled: Boolean);
 begin
   //
-  // This function swaps the original and translated content boxes around by using an HTMX field
+  // This method swaps the original and translated content boxes around by using an HTMX field
   //
   // It is more 'correct' and extensible to actually do this by choosing alternate
   // external templates rather than using this hard-coded constants, but I wanted to
@@ -104,15 +190,18 @@ end;
 procedure TWebModule1.WebModule1TranslateTextActionAction(Sender: TObject; Request: TWebRequest; Response: TWebResponse; var Handled: Boolean);
 begin
   // This routine gets called when the "translate" button is clicked - either manually, by the user, or
-  // vortually thanks to them pasting some text into the original content box
+  // virtually thanks to them pasting some text into the original content box
   var LString: string := Request.ContentFields.Values['ogcontent'];
-  Response.Content := DoTranslate(LString);
+  var LTranslatedString: string := FTranslator.TranslateString(LString);
+  // The handlePaste event gets detached when we use hx-swap - so this DIV prefix forces it to reattach
+  Response.Content := '<div hx-swap-oob="innerHTML:#detectedlang" hx-on:htmx:after-swap="handlePaste();">' + FTranslator.DetectedLanguageName + '</div>' + LTranslatedString;
   Handled := True;
 end;
 
 procedure TWebModule1.WebModuleCreate(Sender: TObject);
 begin
   inherited;
+  FTimer := Now; // Default the timer to when then app starts
   Init;
 end;
 
@@ -120,6 +209,21 @@ procedure TWebModule1.WebModuleDestroy(Sender: TObject);
 begin
   FreeAndNil(FEnvironmentSettings);
   inherited;
+end;
+
+procedure TWebModule1.WebStencilsEngineFile(Sender: TObject; const AFilename: string; var AText: string; var AHandled: Boolean);
+begin
+  if SameText('languagetable.html', AFilename) then
+  begin
+    AText := ReturnLanguageTable;
+    AHandled := True;
+  end;
+end;
+
+procedure TWebModule1.WebStencilsEnginePathInit(Sender: TObject; const ARequest: TWebPostProcessorRequest);
+begin
+  if SameText(ARequest.OriginalPath, '/') then
+    FTimer := Now;
 end;
 
 procedure TWebModule1.WebStencilsEngineValue(Sender: TObject;
@@ -134,9 +238,13 @@ begin
       AReplaceText := FormatDateTime('yyyy-mm-dd hh:nn:ss', Now)
     else if SameText(APropName, 'year') then // @system.year in the template
       AReplaceText := FormatDateTime('yyyy', Now)
+    else if SameText(APropName, 'timer') then // @system.timer in the template - for diagnostics
+      AReplaceText := Format('%.4f', [SecondSpan(Now, FTimer)])
+    else if SameText(APropName, 'timerreset') then // @system.timerreset in the template - resets it to zero
+      FTimer := Now
     else
       AReplaceText := Format('SYSTEM_%s_NOT_FOUND', [APropName.ToUpper]); // oops, invalid system.something
-  AHandled := True;
+    AHandled := True;
   end;
 end;
 

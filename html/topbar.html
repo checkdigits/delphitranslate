@@ -1,0 +1,10 @@
+	<!-- header -->
+	<div><button hx-get="/menu" name="menubutton" hx-target="#thelogo"  hx-swap="outerHTML" class="btn bs-primary-text align-baseline"><i class="bi bi-list fs-6">&nbsp;</i></button><span class="logo"><img id="thelogo" src="@env.Resource/static/img/gurgle.png" class="img-thumbnail border border-0" alt="...">&nbsp;</span><span class="fs-5 align-middle">&nbsp;Translate</span>
+	</div>
+	<!-- option buttons -->
+	<div class="button-container">
+        <button hx-get="/translatetext" hx-include="[name='ogcontent']" name="translatebutton" hx-target="#translatedcontent" class="btn btn-outline-primary bs-primary-text"><i class="bi bi-alphabet">&nbsp;</i>Text</button>
+        <button type="button" class="btn btn-outline-primary bs-primary-text"><i class="bi bi-images">&nbsp;</i>Images</button>
+        <button type="button" class="btn btn-outline-primary bs-primary-text"><i class="bi bi-file-earmark-fill">&nbsp;</i>Documents</button>
+        <button type="button" class="btn btn-outline-primary bs-primary-text"><i class="bi bi-layout-text-window">&nbsp;</i>Websites</button>
+   </div>

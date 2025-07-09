@@ -1,18 +1,18 @@
 ﻿[ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLm1haW5zZXJ2ZXIucGFz]
 Module=C:\vms_share\delphitranslate\modules.mainserver.pas
-CursorX=37
-CursorY=44
-TopLine=34
+CursorX=1
+CursorY=1
+TopLine=133
 LeftCol=1
 Elisions=
-Bookmarks=
+Bookmarks={0,131,37}{1,76,1}{8,135,103}
 EditViewName=C:\vms_share\delphitranslate\modules.mainserver.pas
 
 [ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLmNvbnN0cy5wYXM=]
 Module=C:\vms_share\delphitranslate\modules.consts.pas
-CursorX=106
-CursorY=35
-TopLine=20
+CursorX=63
+CursorY=77
+TopLine=49
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -20,18 +20,18 @@ EditViewName=C:\vms_share\delphitranslate\modules.consts.pas
 
 [ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxkZWxwaGl0cmFuc2xhdGUuZHBy]
 Module=C:\vms_share\delphitranslate\delphitranslate.dpr
-CursorX=37
-CursorY=7
-TopLine=130
+CursorX=52
+CursorY=146
+TopLine=1
 LeftCol=1
 Elisions=
-Bookmarks=
+Bookmarks={0,126,12}
 EditViewName=C:\vms_share\delphitranslate\delphitranslate.dpr
 
 [ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLmVudmNsYXNzLnBhcw==]
 Module=C:\vms_share\delphitranslate\modules.envclass.pas
-CursorX=1
-CursorY=8
+CursorX=38
+CursorY=7
 TopLine=1
 LeftCol=1
 Elisions=
@@ -327,13 +327,752 @@ LeftCol=1
 Elisions=
 Bookmarks=
 EditViewName=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
-
 [ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxTT1VSQ0VcUlRM
 XFNZU1xTeXN0ZW0ucGFz]
 Module=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
 CursorX=1
 CursorY=18429
 TopLine=18409
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxTT1VSQ0VcUlRM
+XFNZU1xTeXN0ZW0ucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+CursorX=1
+CursorY=18429
+TopLine=18409
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+[ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLnRyYW5zbGF0aW9uY29udHJvbGxl
+ci5wYXM=]
+Module=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+CursorX=38
+CursorY=47
+TopLine=40
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+[ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLnRyYW5zbGF0aW9uY29udHJvbGxl
+ci5wYXM=]
+Module=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+CursorX=1
+CursorY=28
+TopLine=16
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxTT1VSQ0VcUlRM
+XFNZU1xTeXN0ZW0ucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+CursorX=1
+CursorY=18429
+TopLine=18409
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+[ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLnRyYW5zbGF0aW9uY29udHJvbGxl
+ci5wYXM=]
+Module=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+CursorX=15
+CursorY=19
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+[ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLnRyYW5zbGF0aW9uY29udHJvbGxl
+ci5wYXM=]
+Module=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+CursorX=15
+CursorY=19
+TopLine=7
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+[ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLnRyYW5zbGF0aW9uY29udHJvbGxl
+ci5wYXM=]
+Module=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+CursorX=15
+CursorY=19
+TopLine=7
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+[ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLnRyYW5zbGF0aW9uY29udHJvbGxl
+ci5wYXM=]
+Module=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+CursorX=15
+CursorY=19
+TopLine=31
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+[ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLnRyYW5zbGF0aW9uY29udHJvbGxl
+ci5wYXM=]
+Module=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+CursorX=15
+CursorY=19
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+[ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLnRyYW5zbGF0aW9uY29udHJvbGxl
+ci5wYXM=]
+Module=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+CursorX=15
+CursorY=19
+TopLine=28
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+[ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLnRyYW5zbGF0aW9uY29udHJvbGxl
+ci5wYXM=]
+Module=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+CursorX=15
+CursorY=19
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+[ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLnRyYW5zbGF0aW9uY29udHJvbGxl
+ci5wYXM=]
+Module=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+CursorX=15
+CursorY=19
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+[ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLnRyYW5zbGF0aW9uY29udHJvbGxl
+ci5wYXM=]
+Module=C:\vms_share\delphitranslate\modules.translationcontroller.pas
+CursorX=3
+CursorY=66
+TopLine=46
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+[ClosedView_QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcHBlcmNlcHRcQVdTIFNESyBmb3IgRGVscGhpIEF0aGVu
+c1xTb3VyY2VcQVdTXEFXUy5UcmFuc2xhdGUucGFz]
+Module=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+CursorX=39
+CursorY=5384
+TopLine=5375
+LeftCol=1
+Elisions={{33,0},{152,11},{'Translate Exceptions'}}{{154,0},{166,11},{'Translate Endpoint Provider'}}{{168,0},{1980,11},{'Translate Data Types'}}{{1982,0},{4807,11},{'Translate Request/Response'}}
+Bookmarks=
+EditViewName=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+[ClosedView_QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcHBlcmNlcHRcQVdTIFNESyBmb3IgRGVscGhpIEF0aGVu
+c1xTb3VyY2VcQVdTXEFXUy5UcmFuc2xhdGUucGFz]
+Module=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+CursorX=9
+CursorY=20
+TopLine=13
+LeftCol=1
+Elisions={{33,0},{152,11},{'Translate Exceptions'}}{{154,0},{166,11},{'Translate Endpoint Provider'}}{{168,0},{1980,11},{'Translate Data Types'}}{{1982,0},{4807,11},{'Translate Request/Response'}}
+Bookmarks=
+EditViewName=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+[ClosedView_QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcHBlcmNlcHRcQVdTIFNESyBmb3IgRGVscGhpIEF0aGVu
+c1xTb3VyY2VcQVdTXEFXUy5Db3JlLnBhcw==]
+Module=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Core.pas
+CursorX=1
+CursorY=1033
+TopLine=1198
+LeftCol=1
+Elisions={{26,0},{33,11},{'Core Exceptions'}}{{35,0},{411,11},{'Core Endpoints'}}{{413,0},{749,11},{'Core Environment'}}{{751,0},{1031,11},{'Core Shared Configuration'}}{{1836,0},{1864,11},{'Core Shared Credentials'}}
+Bookmarks=
+EditViewName=
+[ClosedView_QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcHBlcmNlcHRcQVdTIFNESyBmb3IgRGVscGhpIEF0aGVu
+c1xTb3VyY2VcQVdTXEFXUy5UcmFuc2xhdGUucGFz]
+Module=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+CursorX=9
+CursorY=20
+TopLine=13
+LeftCol=1
+Elisions={{33,0},{152,11},{'Translate Exceptions'}}{{154,0},{166,11},{'Translate Endpoint Provider'}}{{168,0},{1980,11},{'Translate Data Types'}}{{1982,0},{4807,11},{'Translate Request/Response'}}
+Bookmarks=
+EditViewName=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+[ClosedView_QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcHBlcmNlcHRcQVdTIFNESyBmb3IgRGVscGhpIEF0aGVu
+c1xTb3VyY2VcQVdTXEFXUy5UcmFuc2xhdGUucGFz]
+Module=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+CursorX=9
+CursorY=20
+TopLine=13
+LeftCol=1
+Elisions={{33,0},{152,11},{'Translate Exceptions'}}{{154,0},{166,11},{'Translate Endpoint Provider'}}{{168,0},{1980,11},{'Translate Data Types'}}{{1982,0},{4807,11},{'Translate Request/Response'}}
+Bookmarks=
+EditViewName=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+
+[ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLnRyYW5zbGF0b3IucGFz]
+Module=C:\vms_share\delphitranslate\modules.translator.pas
+CursorX=1
+CursorY=31
+TopLine=10
+LeftCol=1
+Elisions=
+Bookmarks={0,290,1}{9,343,28}
+EditViewName=C:\vms_share\delphitranslate\modules.translator.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uR2VuZXJpY3MuQ29sbGVjdGlvbnMucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Generics.Collections.pas
+CursorX=14
+CursorY=890
+TopLine=870
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Generics.Collections.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uR2VuZXJpY3MuQ29sbGVjdGlvbnMucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Generics.Collections.pas
+CursorX=14
+CursorY=890
+TopLine=870
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Generics.Collections.pas
+[ClosedView_QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcHBlcmNlcHRcQVdTIFNESyBmb3IgRGVscGhpIEF0aGVu
+c1xTb3VyY2VcQVdTXEFXUy5DbGllbnQucGFz]
+Module=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Client.pas
+CursorX=1
+CursorY=555
+TopLine=481
+LeftCol=1
+Elisions={{202,0},{293,11},{'Response Errors'}}{{295,0},{307,11},{'Callbacks'}}
+Bookmarks=
+EditViewName=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Client.pas
+[ClosedView_QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcHBlcmNlcHRcQVdTIFNESyBmb3IgRGVscGhpIEF0aGVu
+c1xTb3VyY2VcQVdTXEFXUy5UcmFuc2xhdGUucGFz]
+Module=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+CursorX=40
+CursorY=5287
+TopLine=5267
+LeftCol=1
+Elisions={{33,0},{152,11},{'Translate Exceptions'}}{{154,0},{166,11},{'Translate Endpoint Provider'}}{{168,0},{1980,11},{'Translate Data Types'}}{{1982,0},{4807,11},{'Translate Request/Response'}}
+Bookmarks=
+EditViewName=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+[ClosedView_QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcHBlcmNlcHRcQVdTIFNESyBmb3IgRGVscGhpIEF0aGVu
+c1xTb3VyY2VcQVdTXEFXUy5DbGllbnQucGFz]
+Module=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Client.pas
+CursorX=29
+CursorY=501
+TopLine=481
+LeftCol=1
+Elisions={{202,0},{293,11},{'Response Errors'}}{{295,0},{307,11},{'Callbacks'}}
+Bookmarks=
+EditViewName=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Client.pas
+[ClosedView_QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcHBlcmNlcHRcQVdTIFNESyBmb3IgRGVscGhpIEF0aGVu
+c1xTb3VyY2VcQVdTXEFXUy5UcmFuc2xhdGUucGFz]
+Module=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+CursorX=1
+CursorY=4830
+TopLine=4822
+LeftCol=1
+Elisions={{33,0},{152,11},{'Translate Exceptions'}}{{154,0},{166,11},{'Translate Endpoint Provider'}}{{168,0},{1980,11},{'Translate Data Types'}}{{1982,0},{4807,11},{'Translate Request/Response'}}
+Bookmarks=
+EditViewName=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+[ClosedView_QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcHBlcmNlcHRcQVdTIFNESyBmb3IgRGVscGhpIEF0aGVu
+c1xTb3VyY2VcQVdTXEFXUy5UcmFuc2xhdGUucGFz]
+Module=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+CursorX=1
+CursorY=4830
+TopLine=4822
+LeftCol=1
+Elisions={{33,0},{152,11},{'Translate Exceptions'}}{{154,0},{166,11},{'Translate Endpoint Provider'}}{{168,0},{1980,11},{'Translate Data Types'}}{{1982,0},{4807,11},{'Translate Request/Response'}}
+Bookmarks=
+EditViewName=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+[ClosedView_QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcHBlcmNlcHRcQVdTIFNESyBmb3IgRGVscGhpIEF0aGVu
+c1xTb3VyY2VcQVdTXEFXUy5UcmFuc2xhdGUucGFz]
+Module=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+CursorX=1
+CursorY=4830
+TopLine=30
+LeftCol=1
+Elisions={{33,0},{152,11},{'Translate Exceptions'}}{{154,0},{166,11},{'Translate Endpoint Provider'}}{{168,0},{1980,11},{'Translate Data Types'}}{{1982,0},{4807,11},{'Translate Request/Response'}}
+Bookmarks=
+EditViewName=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+[ClosedView_QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcHBlcmNlcHRcQVdTIFNESyBmb3IgRGVscGhpIEF0aGVu
+c1xTb3VyY2VcQVdTXEFXUy5UcmFuc2xhdGUucGFz]
+Module=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+CursorX=45
+CursorY=5105
+TopLine=5251
+LeftCol=1
+Elisions={{33,0},{152,11},{'Translate Exceptions'}}{{154,0},{166,11},{'Translate Endpoint Provider'}}{{168,0},{1980,11},{'Translate Data Types'}}{{1982,0},{4807,11},{'Translate Request/Response'}}
+Bookmarks=
+EditViewName=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+[ClosedView_QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcHBlcmNlcHRcQVdTIFNESyBmb3IgRGVscGhpIEF0aGVu
+c1xTb3VyY2VcQVdTXEFXUy5UcmFuc2xhdGUucGFz]
+Module=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+CursorX=45
+CursorY=5105
+TopLine=4816
+LeftCol=1
+Elisions={{33,0},{152,11},{'Translate Exceptions'}}{{154,0},{166,11},{'Translate Endpoint Provider'}}{{168,0},{1980,11},{'Translate Data Types'}}{{1982,0},{4807,11},{'Translate Request/Response'}}
+Bookmarks=
+EditViewName=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxTT1VSQ0VcUlRM
+XFNZU1xTeXN0ZW0ucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+CursorX=1
+CursorY=18429
+TopLine=18409
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+[ClosedView_QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcHBlcmNlcHRcQVdTIFNESyBmb3IgRGVscGhpIEF0aGVu
+c1xTb3VyY2VcQVdTXEFXUy5UcmFuc2xhdGUucGFz]
+Module=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+CursorX=1
+CursorY=574
+TopLine=563
+LeftCol=1
+Elisions={{33,0},{152,11},{'Translate Exceptions'}}{{154,0},{166,11},{'Translate Endpoint Provider'}}{{4809,0},{5377,11},{'Translate Client'}}
+Bookmarks=
+EditViewName=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VcSW50
+ZXJuZXRcV2ViLlN0ZW5jaWxzLnBhcw==]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+CursorX=1
+CursorY=2615
+TopLine=2595
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+
+[ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxodG1sXG1haW5wYWdlLmh0bWw=]
+Module=C:\vms_share\delphitranslate\html\mainpage.html
+CursorX=81
+CursorY=58
+TopLine=34
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\vms_share\delphitranslate\html\mainpage.html
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VcSW50
+ZXJuZXRcV2ViLldlYlJlcS5wYXM=]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.WebReq.pas
+CursorX=1
+CursorY=242
+TopLine=207
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.WebReq.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxTT1VSQ0VcUlRM
+XFNZU1xTeXN0ZW0ucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+CursorX=1
+CursorY=18429
+TopLine=18409
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxTT1VSQ0VcUlRM
+XFNZU1xTeXN0ZW0ucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+CursorX=1
+CursorY=18429
+TopLine=18409
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+
+[ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxodG1sXHN0YXRpY1xjc3NcY3VzdG9tLmNzcw==]
+Module=C:\vms_share\delphitranslate\html\static\css\custom.css
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\vms_share\delphitranslate\html\static\css\custom.css
+[ClosedView_QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcHBlcmNlcHRcQVdTIFNESyBmb3IgRGVscGhpIEF0aGVu
+c1xTb3VyY2VcQVdTXEFXUy5UcmFuc2xhdGUucGFz]
+Module=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+CursorX=1
+CursorY=574
+TopLine=563
+LeftCol=1
+Elisions={{33,0},{152,11},{'Translate Exceptions'}}{{154,0},{166,11},{'Translate Endpoint Provider'}}{{4809,0},{5377,11},{'Translate Client'}}
+Bookmarks=
+EditViewName=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+[ClosedView_QzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxBcHBlcmNlcHRcQVdTIFNESyBmb3IgRGVscGhpIEF0aGVu
+c1xTb3VyY2VcQVdTXEFXUy5UcmFuc2xhdGUucGFz]
+Module=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+CursorX=1
+CursorY=574
+TopLine=563
+LeftCol=1
+Elisions={{33,0},{152,11},{'Translate Exceptions'}}{{154,0},{166,11},{'Translate Endpoint Provider'}}{{4809,0},{5377,11},{'Translate Client'}}
+Bookmarks=
+EditViewName=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\AWS\AWS.Translate.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uRGlhZ25vc3RpY3MucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Diagnostics.pas
+CursorX=1
+CursorY=112
+TopLine=93
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uRGlhZ25vc3RpY3MucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Diagnostics.pas
+CursorX=1
+CursorY=156
+TopLine=130
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uRGlhZ25vc3RpY3MucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Diagnostics.pas
+CursorX=1
+CursorY=93
+TopLine=66
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uVGltZVNwYW4ucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.TimeSpan.pas
+CursorX=23
+CursorY=39
+TopLine=117
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uRGlhZ25vc3RpY3MucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Diagnostics.pas
+CursorX=33
+CursorY=117
+TopLine=106
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Diagnostics.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XHdpblxXaW5hcGkuV2luZG93cy5wYXM=]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\win\Winapi.Windows.pas
+CursorX=1
+CursorY=40817
+TopLine=40796
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uRGlhZ25vc3RpY3MucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Diagnostics.pas
+CursorX=23
+CursorY=101
+TopLine=84
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Diagnostics.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XHdpblxXaW5hcGkuV2luZG93cy5wYXM=]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\win\Winapi.Windows.pas
+CursorX=1
+CursorY=40816
+TopLine=40795
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uRGlhZ25vc3RpY3MucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Diagnostics.pas
+CursorX=22
+CursorY=103
+TopLine=84
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Diagnostics.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XHdpblxXaW5hcGkuV2luZG93cy5wYXM=]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\win\Winapi.Windows.pas
+CursorX=1
+CursorY=40474
+TopLine=40453
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uRGlhZ25vc3RpY3MucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Diagnostics.pas
+CursorX=22
+CursorY=103
+TopLine=84
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Diagnostics.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uRGlhZ25vc3RpY3MucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Diagnostics.pas
+CursorX=22
+CursorY=103
+TopLine=84
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Diagnostics.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uVGltZVNwYW4ucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.TimeSpan.pas
+CursorX=6
+CursorY=119
+TopLine=78
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VcSW50
+ZXJuZXRcV2ViLkhUVFBBcHAucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.HTTPApp.pas
+CursorX=37
+CursorY=114
+TopLine=93
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VcSW50
+ZXJuZXRcV2ViLkhUVFBBcHAucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.HTTPApp.pas
+CursorX=1
+CursorY=252
+TopLine=282
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxTT1VSQ0VcUlRM
+XFNZU1xTeXN0ZW0ucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+CursorX=1
+CursorY=18429
+TopLine=18408
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxTT1VSQ0VcUlRM
+XFNZU1xTeXN0ZW0ucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+CursorX=1
+CursorY=18429
+TopLine=18408
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VcSW50
+ZXJuZXRcV2ViLlN0ZW5jaWxzLnBhcw==]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+CursorX=1
+CursorY=466
+TopLine=577
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VcSW50
+ZXJuZXRcV2ViLlN0ZW5jaWxzLnBhcw==]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+CursorX=31
+CursorY=1620
+TopLine=1605
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VcSW50
+ZXJuZXRcV2ViLlN0ZW5jaWxzQ29uc3QucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.StencilsConst.pas
+CursorX=42
+CursorY=11
+TopLine=7
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VcSW50
+ZXJuZXRcV2ViLlN0ZW5jaWxzLnBhcw==]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+CursorX=30
+CursorY=1632
+TopLine=1611
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VcSW50
+ZXJuZXRcV2ViLlN0ZW5jaWxzQ29uc3QucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.StencilsConst.pas
+CursorX=1
+CursorY=37
+TopLine=7
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.StencilsConst.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VcSW50
+ZXJuZXRcV2ViLlN0ZW5jaWxzQ29uc3QucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.StencilsConst.pas
+CursorX=1
+CursorY=37
+TopLine=7
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.StencilsConst.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VcSW50
+ZXJuZXRcV2ViLlN0ZW5jaWxzLnBhcw==]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+CursorX=44
+CursorY=738
+TopLine=717
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uUlRMQ29uc3RzLnBhcw==]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.RTLConsts.pas
+CursorX=1
+CursorY=64
+TopLine=43
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VcSW50
+ZXJuZXRcV2ViLlN0ZW5jaWxzLnBhcw==]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+CursorX=19
+CursorY=90
+TopLine=69
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxTT1VSQ0VcUlRM
+XFNZU1xTeXN0ZW0ucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+CursorX=1
+CursorY=407
+TopLine=386
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VcSW50
+ZXJuZXRcV2ViLlN0ZW5jaWxzLnBhcw==]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+CursorX=46
+CursorY=730
+TopLine=709
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uUlRMQ29uc3RzLnBhcw==]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.RTLConsts.pas
+CursorX=1
+CursorY=64
+TopLine=43
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VcSW50
+ZXJuZXRcV2ViLlN0ZW5jaWxzLnBhcw==]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+CursorX=21
+CursorY=899
+TopLine=878
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VcSW50
+ZXJuZXRcV2ViLlN0ZW5jaWxzLnBhcw==]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+CursorX=21
+CursorY=899
+TopLine=878
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\Internet\Web.Stencils.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxTT1VSQ0VcUlRM
+XFNZU1xTeXN0ZW0ucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+CursorX=1
+CursorY=18429
+TopLine=18408
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxTT1VSQ0VcUlRM
+XFNZU1xTeXN0ZW0ucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+CursorX=1
+CursorY=22464
+TopLine=22413
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxTT1VSQ0VcUlRM
+XFNZU1xTeXN0ZW0ucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+CursorX=26
+CursorY=18416
+TopLine=18408
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxTT1VSQ0VcUlRM
+XFNZU1xTeXN0ZW0ucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.pas
+CursorX=1
+CursorY=18429
+TopLine=18408
 LeftCol=1
 Elisions=
 Bookmarks=
