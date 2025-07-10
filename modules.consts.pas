@@ -53,7 +53,7 @@ const
 
   cLangNormal = '''
 	<div class="textcontainer" id="textboxes">
-			<textarea id="originalcontent" name="ogcontent" maxlength="5000" hx-post="/translatetext" hx-trigger="delay:500ms changed" hx-target="#translatedcontent" hx-swap="innerHTML">%s</textarea>
+			<textarea id="originalcontent" name="ogcontent" spellcheck="false" maxlength="5000" hx-post="/translatetext" hx-trigger="delay:500ms changed" hx-target="#translatedcontent" hx-swap="innerHTML">%s</textarea>
       &nbsp;
 	    <textarea id="translatedcontent" name="transcontent" placeholder="Translation">%s</textarea>
 	</div>
@@ -63,7 +63,7 @@ const
 	<div class="textcontainer" id="textboxes">
 	    <textarea id="translatedcontent" name="transcontent" placeholder="Translation">%s</textarea>
 			&nbsp;
-			<textarea id="originalcontent" name="ogcontent" maxlength="5000" hx-post="/translatetext" hx-trigger="delay:500ms changed" hx-target="#translatedcontent" hx-swap="innerHTML">%s</textarea>
+			<textarea id="originalcontent" name="ogcontent" spellcheck="false" maxlength="5000" hx-post="/translatetext" hx-trigger="delay:500ms changed" hx-target="#translatedcontent" hx-swap="innerHTML">%s</textarea>
 	</div>
 ''';
 
