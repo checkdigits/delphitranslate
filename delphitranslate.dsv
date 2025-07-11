@@ -1,8 +1,8 @@
 ﻿[ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLm1haW5zZXJ2ZXIucGFz]
 Module=C:\vms_share\delphitranslate\modules.mainserver.pas
-CursorX=67
-CursorY=30
-TopLine=49
+CursorX=66
+CursorY=191
+TopLine=163
 LeftCol=1
 Elisions=
 Bookmarks={0,131,37}{1,76,1}{8,135,103}
@@ -10,9 +10,9 @@ EditViewName=C:\vms_share\delphitranslate\modules.mainserver.pas
 
 [ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLmNvbnN0cy5wYXM=]
 Module=C:\vms_share\delphitranslate\modules.consts.pas
-CursorX=63
-CursorY=77
-TopLine=49
+CursorX=47
+CursorY=45
+TopLine=40
 LeftCol=1
 Elisions=
 Bookmarks=
