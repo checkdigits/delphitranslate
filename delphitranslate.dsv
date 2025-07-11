@@ -520,9 +520,9 @@ EditViewName=C:\Program Files (x86)\Appercept\AWS SDK for Delphi Athens\Source\A
 
 [ClosedView_Qzpcdm1zX3NoYXJlXGRlbHBoaXRyYW5zbGF0ZVxtb2R1bGVzLnRyYW5zbGF0b3IucGFz]
 Module=C:\vms_share\delphitranslate\modules.translator.pas
-CursorX=3
-CursorY=231
-TopLine=261
+CursorX=99
+CursorY=268
+TopLine=228
 LeftCol=1
 Elisions=
 Bookmarks={0,290,1}{9,343,28}

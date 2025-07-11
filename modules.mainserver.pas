@@ -113,8 +113,8 @@ begin
 
 }
 
-  Result := cLangBlockPart1 + cDetectedDiv + FTranslator.SourceLanguageName + '</div></a>' + #10;
-  Result := Result + cLangBlockPart2 + #10;
+  Result := cLangBlockPart1 + cDetectedDiv + FTranslator.SourceLanguageName + '</div></a>' + sLineBreak;
+  Result := Result + cLangBlockPart2 + sLineBreak;
 
   Result := Result + '<table class="table" name="langtable" id="langtable"><tbody>';
   var LCnt: integer := 0;
@@ -136,7 +136,7 @@ begin
                      + LCode.LanguageName
                      + LActive
                      + '</label></td>'
-                     + #10;
+                     + sLineBreak;
     Inc(LCnt);
     if LCnt = cMaxLangsPerLine then
     begin
@@ -144,9 +144,9 @@ begin
       LCnt := 0;
     end;
   end;
-  if LCnt > 0 then Result := Result + '</tr>' + #10;  // finish uneven row
-  Result := Result + '</tbody></table>' + #10;
-  Result := Result + '</ul></li></div>' + #10;
+  if LCnt > 0 then Result := Result + '</tr>' + sLineBreak;  // finish uneven row
+  Result := Result + '</tbody></table>' + sLineBreak;
+  Result := Result + '</ul></li></div>' + sLineBreak;
 end;
 
 procedure TWebModule1.WebModule1SetNewLangActionAction(Sender: TObject; Request: TWebRequest; Response: TWebResponse; var Handled: Boolean);
